@@ -1,0 +1,14 @@
+@import './variable.scss';
+
+.navbarContainer{
+    background-color: $navbarbackground;
+    display: flex;
+
+    ul{
+        list-style: none;
+        display: flex;
+    }
+}
+
+
+

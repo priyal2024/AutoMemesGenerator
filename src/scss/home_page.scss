@@ -1,0 +1,57 @@
+.container{
+    position: relative;
+    left: 19%;
+
+    .title{
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        margin-top: 25px;
+        font-size: 46px;
+    }
+    .cardContainer{
+        height: 550px;
+        width: 550px;
+        background-color: white;
+        position: relative;
+        background-color: gray;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        .memesImg{
+            object-fit: cover;
+            position: absolute;
+        }
+
+        .cardBody{
+            position: absolute;
+            padding: 30px;
+            top: 62%;
+            left:16%;
+
+            .memesName{
+                width: 320px;
+                text-overflow: ellipsis;
+                top: 70%;
+                white-space: nowrap;
+                overflow: hidden;
+                left: 28%;
+                font-size: 35px;
+                color: white;
+            }
+
+            .btnContainer{
+                display: flex;
+                margin-top: 25px;
+
+                .nextBtn{
+                    margin-right: 7px;
+                }
+
+                .prevBtn{
+                    margin-left: 35px;
+                }
+            }
+        }
+
+        
+        
+    }
+}
